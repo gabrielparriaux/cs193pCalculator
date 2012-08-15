@@ -36,6 +36,13 @@
     return [CalculatorBrain runProgram:self.program];
 }
 
+
+- (void)pushVariable:(NSString *)variable
+{
+    
+}
+
+
 - (id)program
 {
         // copy crée une copie du programStack et évite qu'on doive le transmettre comme ça publiquement dans la nature; en plus, il transforme un NSMutableArray en NSArray

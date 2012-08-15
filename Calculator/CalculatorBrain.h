@@ -12,6 +12,7 @@
 
 - (void)pushOperand:(double)operand;
 - (double)performOperation:(NSString *)operation;
+- (void)pushVariable:(NSString *)variable;
 - (void)empty;
 
 
