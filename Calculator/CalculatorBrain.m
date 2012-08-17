@@ -51,7 +51,7 @@
 
 + (NSString *)descriptionOfProgram:(id)program
 {
-    return @"6+4";
+    return @"6+6";
 }
 
 + (double)popOperandOffStack:(NSMutableArray *)stack
